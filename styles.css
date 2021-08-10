@@ -65,6 +65,14 @@ header {
 header {
   line-height: 1.5;
 }
+/* Portfolio page header */
+.port-header {
+  background: url('images/griffith-obs-1.jpg') no-repeat top center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+}
+
 header .profile-image {
   margin-top: 50px;
   width: 150px;
@@ -83,7 +91,12 @@ header .profile-image:hover {
   border-radius: 5px;
   display: table;
   margin: 10px auto;
-} 
+}
+
+.exp-tag {
+  margin: 85px auto;
+}
+
 .location {
   background-color: #222;
   color: yellow;
@@ -120,6 +133,47 @@ ul.skills {
   background: #0399ff;
 }
 
+/* Portfolio Styles */
+.port-main {
+  text-align: left;
+  line-height: 1.6;
+}
+
+.port-main p {
+  font-size: 1.1rem;
+}
+
+.port-img {
+  width: 500px;
+  max-width: 100%;
+}
+
+.port-section {
+  padding: 4em 0;
+}
+
+.port-section-one,
+.port-section-three {
+  color: #1f202b;
+}
+
+.port-section-two,
+.port-section-four {
+  background-color: #1f202b;
+  color: #fff;
+}
+
+.section-title {
+  font-size: 2rem;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+  max-width: 1180px;
+}
+
+/* Footer styles */
 footer {
   width: 100%;
   min-height: 30px;
@@ -175,7 +229,7 @@ a.social:hover {
       display: flex; 
       max-width: 1200px;
       -ms-flex-pack: distribute;
-      justify-content: space-around;
+      justify-content: space-around; 
       margin: 0 auto;
   }
 
@@ -187,7 +241,6 @@ a.social:hover {
     max-width: 1200px;
     padding: 0 30px;
   }
-
 
   main {
     padding-top: 20px;
@@ -201,6 +254,22 @@ a.social:hover {
     font-size: 1.3em;
     max-width: 1200px;
     margin: 40px auto;
+  }
+
+}
+
+/* Portfolio page media queries */
+@media screen and (min-width: 800px) {
+  .row {
+    display: flex;
+  }
+
+  .col {
+    width: 100%;
+  }
+
+  .col + .col {
+    margin-left: 5em;
   }
 
 }
