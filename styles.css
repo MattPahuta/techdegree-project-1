@@ -2,7 +2,8 @@
 * { 
   box-sizing: border-box;
 }
-  
+
+ 
 body {
   margin: 0;
   padding: 0;
@@ -19,6 +20,10 @@ a {
 }
 a:hover {
   color: #6633ff;
+}
+
+.mail-to {
+  color: #222;
 }
 
 /* Section Styles */
@@ -41,9 +46,9 @@ a:hover {
 }
 
 .nav .name {
-    display: block;
-    margin-right: auto;
-    color: white;
+  display: block;
+  margin-right: auto;
+  color: white;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
@@ -61,10 +66,9 @@ header {
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
-}
-header {
   line-height: 1.5;
 }
+
 /* Portfolio page header */
 .port-header {
   background: url('images/griffith-obs-1.jpg') no-repeat top center ;
@@ -85,12 +89,13 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
-  transition: all .5s;
+  border: 4px solid yellow;
+  transition: all .5s ease-in-out;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.1) rotate(15deg);
 }
+
 .tag {
   background-color: #efefef;
   color: black;
@@ -166,7 +171,7 @@ ul.skills {
 
 .port-section-two,
 .port-section-four {
-  background-color: #1f202b;
+  background-color: #0399ff;
   color: #fff;
 }
 
@@ -178,17 +183,6 @@ ul.skills {
   width: 85%;
   margin: 0 auto;
   max-width: 1180px;
-}
-
-/* Contact styles */
-
-.mail-to {
-  color: #222;
-}
-
-.mail-to:hover,
-.mail-to:active {
-  color: #ff99ff;
 }
 
 
