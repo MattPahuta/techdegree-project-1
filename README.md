@@ -1,1 +1,1 @@
-# techdegree-project-1
+# Treehouse FEWD Techdegree - Project 1

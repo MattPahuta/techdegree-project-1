@@ -73,6 +73,13 @@ header {
   padding-top: 60px;
 }
 
+.contact-header {
+  background: url('images/la-golden-hour.jpg') no-repeat top center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+}
+
 header .profile-image {
   margin-top: 50px;
   width: 150px;
@@ -173,6 +180,18 @@ ul.skills {
   max-width: 1180px;
 }
 
+/* Contact styles */
+
+.mail-to {
+  color: #222;
+}
+
+.mail-to:hover,
+.mail-to:active {
+  color: #ff99ff;
+}
+
+
 /* Footer styles */
 footer {
   width: 100%;
@@ -225,14 +244,26 @@ a.social:hover {
 @media screen and (min-width: 720px) {
   
   .flex {
-      display: -ms-flexbox;      /* TWEENER - IE 10 */
-      display: flex; 
-      max-width: 1200px;
-      -ms-flex-pack: distribute;
-      justify-content: space-around; 
-      margin: 0 auto;
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: flex; 
+    max-width: 1200px;
+    -ms-flex-pack: distribute;
+    justify-content: space-around; 
+    margin: 0 auto;
   }
 
+  .contact-main {
+    display: flex;
+    max-width: 750px;
+    justify-content: space-around;
+    margin: 0 auto;
+  }
+
+  .contact-main p {
+    font-size: 1.1rem;
+  }
+
+ 
   header {
     min-height: 470px;
   }
